@@ -1,0 +1,108 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Logo on left, links on right */
+    align-items: center;
+    width: 100%;
+    background-color: #fff; /* Light background */
+    padding: 10px 20px; /* Padding for the nav area */
+  }
+
+  .logo {
+    font-family: 'Arial', sans-serif; /* Simple sans-serif font */
+    font-size: 24px; /* Larger size for emphasis */
+    font-weight: bold; /* Bold style to stand out */
+    color: #333; /* Dark color for contrast */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Even spacing between links */
+  }
+  
+  .nav-item {
+    font-family: 'Arial', sans-serif; /* Simple sans-serif font */
+    font-size: 16px; /* Adjust size as needed */
+    color: #333; /* Dark color for contrast */
+    text-decoration: none; /* Removes underline */
+  }
+  
+  .nav-item:hover {
+    color: #666; /* Slight color change on hover for better UX */
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 90px;
+    background-color: #f9faff;  
+    min-height: 70vh; /* Ensures it takes up significant space */
+  }
+
+.hero-content {
+    max-width: 50%; /* Keep text on the left half */
+}
+
+.hero-subtitle {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #f1c40f; /* Yellow color for the subtitle */
+    margin-bottom: 45px;
+    text-transform: uppercase;
+  }
+
+  .hero-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+
+  .btn {
+    font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #f1c40f; /* Yellow button */
+    color: #fff;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #d4ac0d;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    gap: 25px;
+  }
+
+  .icons:hover {
+    cursor: pointer;
+  }
+
+  .icons i {
+    font-size: 34px;
+  }
+
+  footer .text {
+    text-align: center;
+    padding-bottom: 47px;
+  }
+
+  .myImage img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-right: 200px;
+  }

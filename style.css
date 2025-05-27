@@ -1,0 +1,251 @@
+/* CSS for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Logo on left, links on right */
+    align-items: center;
+    width: 100%;
+    background-color: #fff; /* Light background */
+    padding: 10px 20px; /* Padding for the nav area */
+  }
+  
+  .logo {
+    font-family: 'Arial', sans-serif; /* Simple sans-serif font */
+    font-size: 24px; /* Larger size for emphasis */
+    font-weight: bold; /* Bold style to stand out */
+    color: #333; /* Dark color for contrast */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Even spacing between links */
+  }
+  
+  .nav-item {
+    font-family: 'Arial', sans-serif; /* Simple sans-serif font */
+    font-size: 16px; /* Adjust size as needed */
+    color: #333; /* Dark color for contrast */
+    text-decoration: none; /* Removes underline */
+  }
+  
+  .nav-item:hover {
+    color: #666; /* Slight color change on hover for better UX */
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f9faff;  
+    min-height: 70vh; /* Ensures it takes up significant space */
+  }
+
+.hero-content {
+    max-width: 50%; /* Keep text on the left half */
+}
+
+.hero-subtitle {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #f1c40f; /* Yellow color for the subtitle */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .hero-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 15px;
+  }
+
+.btn {
+    font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #f1c40f; /* Yellow button */
+    color: #fff;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #d4ac0d;
+  }
+
+  .btn-secondary {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+  }
+
+  .btn-secondary:hover {
+    background-color: #f0f0f0;
+  }
+
+  .main-content {
+    width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  }
+.projects-section {
+    padding: 40px 60px;
+    background-color: #f9faff; /* Light background consistent with the page */
+    text-align: center; /* Center the title */
+}
+
+.projects-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+.projects-title::after {   /* chiziqcha qo'yish */
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #f1c40f; /* Yellow underline */
+    margin: 10px auto 0; /* Center the line below the title */
+  }
+
+  .project-container {
+    display: block; /* Change to block to stack cards vertically */
+    max-width: 1200px; /* limit the overall width of the container, preventing it from stretching to the full screen width */
+    margin: 0 auto;  /* to center the container horizontally within the page */
+    padding-top: 30px; /* Adjusted padding for better spacing */
+  }
+
+  .project-card {
+    display: flex;
+    max-width: 800px ;
+    width: 80%; /* to reduce the width of each card relative to its container, avoiding full-screen span. */
+    background-color: #fff; /* Light card background */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensure image respects border radius */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* slightly stronger shadow for depth */
+    margin: 0 auto 30px auto;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  .project-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover for interactivity */
+  }
+
+  .project-image {
+    width: 50%; /* Left half for image */
+    background-color: #f1c40fa2; /* Yellow underline */
+    min-height: 150px; /* Minimum height for image area */
+    object-fit: cover ; /* Ensure image fits well */
+
+  }
+
+  .project-content {
+    width: 50%; /* Right half for text and button */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; /* Align text to the left for better readability */
+  }
+
+  .project-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .project-description {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
+      line-height: 1.5;
+  }
+
+  .project-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .project-btn:hover {
+    background-color: #f0f0f0;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    gap: 25px;
+  }
+
+  .icons:hover {
+    cursor: pointer;
+  }
+
+  .icons i {
+    font-size: 34px;
+  }
+
+  footer .text {
+    text-align: center;
+    padding-bottom: 47px;
+  }
+
+  @media (max-width: 768px) {
+    .project-card {
+      width: 90%;
+      flex-direction: column;   /* oy, this is making the image above the decription */
+    }
+
+    .project-image {
+      width: 100%;
+      min-height: 150px;
+    }
+
+    .project-content {
+      width: 100%; /* Full width for content on small screens */
+      padding: 15px; /* Adjust padding */
+  }
+  }
+
+  @media (max-width: 480px) {
+    .projects-section {
+        padding: 20px 20px; /* Reduce padding on very small screens */
+    }
+
+    .project-card {
+        width: 100%; /* Full width on very small screens */
+    }
+
+    .project-title {
+        font-size: 18px; /* Reduce font size */
+    }
+
+    .project-description {
+        font-size: 12px; /* Reduce font size */
+    }
+}
+
+
