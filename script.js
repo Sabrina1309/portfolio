@@ -7,3 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
     window.open("https://drive.google.com/file/d/1Cv8QVfeNwc1-X3zcSow12BYhep9qXidD/view?usp=drive_link", "_blank");
   });
 });
+
+
+  const linkedInButton = document.querySelector(".btn.btn-secondary");
+    linkedInButton.addEventListener("click", function() {
+      window.open("https://www.linkedin.com/in/sabrina-mavlonova-2045a4364/", "_blank");
+    });
+  
