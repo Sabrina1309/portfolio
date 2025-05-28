@@ -13,5 +13,22 @@ document.addEventListener("DOMContentLoaded", function() {
     linkedInButton.addEventListener("click", function() {
       window.open("https://www.linkedin.com/in/sabrina-mavlonova-2045a4364/", "_blank");
     });
+
+  
+  function showGallery() {
+   window.open("https://sabrina1309.github.io/collegetips_gallery/", "_blank");
+  }
+  
+  function showGeology() {
+   window.open(" https://sabrina1309.github.io/", "_blank");
+  }
+  
+  function showToDo() {
+   window.open("https://sabrina1309.github.io/to-doIntern/", "_blank");
+  }
+  
+
+
+  
   });
   
