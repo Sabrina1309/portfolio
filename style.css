@@ -1,5 +1,6 @@
 /* CSS for the navbar */
 .navbar {
+    position: sticky;
     display: flex;
     justify-content: space-between; /* Logo on left, links on right */
     align-items: center;
@@ -88,7 +89,7 @@
   .main-content {
     width: 100%;
   margin: 0 auto;
-  padding: 0;
+  padding-top: 40px;
   }
 .projects-section {
     padding: 40px 60px;
