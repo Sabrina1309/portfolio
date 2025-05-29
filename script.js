@@ -37,14 +37,12 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   window.showInstagramProfile = function() {
-    window.open("", "_blank");
+    window.open("https://www.instagram.com/sunnee_sis/", "_blank");
   }
   window.showLinkedIn = function() {
-    window.open("", "_blank");
+    window.open("https://www.linkedin.com/in/sabrina-mavlonova-2045a4364/", "_blank");
   }
-  window.showMail = function() {
-    window.open("", "_blank");
-  }
+  
 
   
   
