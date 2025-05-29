@@ -35,6 +35,22 @@ document.addEventListener("DOMContentLoaded", function () {
   window.showToDo = function () {
     window.open("https://sabrina1309.github.io/to-doIntern/", "_blank");
   };
+
+  window.showInstagramProfile = function() {
+    window.open("", "_blank");
+  }
+  window.showLinkedIn = function() {
+    window.open("", "_blank");
+  }
+  window.showMail = function() {
+    window.open("", "_blank");
+  }
+
+  
+  
+  
+
+  
 });
 
   
