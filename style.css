@@ -85,13 +85,13 @@
     background-color: #d4ac0d;
   }
 
-  .btn-secondary {
+  .btn-linked {
     background-color: transparent;
     color: #333;
     border: 1px solid #333;
   }
 
-  .btn-secondary:hover {
+  .btn-linked:hover {
     background-color: #f0f0f0;
   }
 
