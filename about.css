@@ -10,6 +10,7 @@ html, body {
     width: 100%;
     background-color: #fff; /* Light background */
     padding: 10px 20px; /* Padding for the nav area */
+     box-sizing: border-box; /* this is the key */
   }
 
   .logo {
@@ -21,7 +22,7 @@ html, body {
   
   .nav-links {
     display: flex;
-    gap: 20px; /* Even spacing between links */
+    gap: 15px; /* Even spacing between links */
   }
   
   .nav-item {
