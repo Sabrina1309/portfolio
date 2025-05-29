@@ -61,40 +61,30 @@
     line-height: 1.2;
   }
 
-  .hero-buttons {
+  .linked-button-container {
     display: flex;
     gap: 15px;
-  }
-
-.btn {
-    font-family: 'Arial', sans-serif;
+       font-family: 'Arial', sans-serif;
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
-}
+  }
 
-.btn-primary {
+
+
+.btn-linked {
     background-color: #f1c40f; /* Yellow button */
     color: #fff;
     border: none;
   }
 
-  .btn-primary:hover {
+  .btn-linked:hover {
     background-color: #d4ac0d;
   }
 
-  .btn-linked {
-    background-color: transparent;
-    color: #333;
-    border: 1px solid #333;
-  }
-
-  .btn-linked:hover {
-    background-color: #f0f0f0;
-  }
-
+  
   .main-content {
     width: 100%;
   margin: 0 auto;
