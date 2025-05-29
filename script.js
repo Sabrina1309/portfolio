@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-  const linkedInButton = document.querySelector(".btn.btn-secondary");
+  const linkedInButton = document.querySelector(".btn.btn-linked");
     linkedInButton.addEventListener("click", function() {
       
       window.open("https://www.linkedin.com/in/sabrina-mavlonova-2045a4364/", "_blank");
