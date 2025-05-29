@@ -9,8 +9,8 @@ html, body {
     align-items: center;
     width: 100%;
     background-color: #fff; /* Light background */
-   /*  padding: 10px 20px; /* Padding for the nav area */
-     box-sizing: border-box; /* this is the key  */ */
+    padding: 10px 20px; /* Padding for the nav area */
+    box-sizing: border-box;  /* this is the key  */ */
   }
 
   .logo {
@@ -21,9 +21,6 @@ html, body {
   }
   
   .nav-links {
-       padding: 10px 20px;
-     max-width: 1200px;
-      margin: 0 auto;
     display: flex;
     gap: 15px; /* Even spacing between links */
   }
