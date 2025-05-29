@@ -1,7 +1,7 @@
 
 
 document.addEventListener("DOMContentLoaded", function() { 
-  const resumeBtn = document.querySelector(".btn.btn-resume");
+  const resumeBtn = document.querySelector(".btn-resume");
 
   resumeBtn.addEventListener("click", function() {
     window.open("https://drive.google.com/file/d/1Cv8QVfeNwc1-X3zcSow12BYhep9qXidD/view?usp=drive_link", "_blank");
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-  const linkedInButton = document.querySelector(".btn.btn-linked");
+  const linkedInButton = document.querySelector(".btn-linked");
     linkedInButton.addEventListener("click", function() {
       
       window.open("https://www.linkedin.com/in/sabrina-mavlonova-2045a4364/", "_blank");
